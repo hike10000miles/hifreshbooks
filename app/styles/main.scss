@@ -89,6 +89,22 @@ body {
 		bottom: 0;
 		width: 80%;
 	}
+	.container {
+		@include outer-container;
+		.left {
+			@include omega(7);
+			@include span-columns(6);
+			background-color: red;
+		}
+		.right {
+			background-color: green;
+			@include span-columns(6);
+			margin-right: 0;
+		}
+	}
+	.p2 {
+		clear: both;
+	}
 }
 .page {
 	margin: 5% 5% 0 5%;

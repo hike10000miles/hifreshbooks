@@ -1,0 +1,22 @@
+@import '../../bower_components/bourbon/dist/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+
+@media screen and (min-width: 600px) {
+	.container {
+		@include outer-container;
+		.left {
+			@include omega(7);
+			@include span-columns(6);
+			background-color: red;
+		}
+		.right {
+			background-color: green;
+			@include span-columns(6);
+			margin-right: 0;
+		}
+	}
+	.p2 {
+		clear: both;
+	}
+}
