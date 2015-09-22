@@ -1,0 +1,31 @@
+@import '../../bower_components/bourbon/dist/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+
+@media screen and (min-width: 600px) {
+	.container {
+		@include outer-container;
+		#left {
+			@include omega(7);
+			@include span-columns(6);
+		}		
+		#right {
+			padding-top: 30px;
+			@include span-columns(6);
+			margin-right: 0;
+		}
+	}
+	.p3 {
+		clear: both;
+	}
+}
+h3{
+	font-family: 'Fauna One', serif;
+}
+ul {
+	list-style: none;
+	li {
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+	}
+}
