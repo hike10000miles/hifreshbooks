@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .container #left {
+      float: left;
+      display: block;
+      margin-right: 2.1276595745%;
+      width: 48.9361702128%; }
+      .container #left:nth-child(7) {
+        margin-right: 0; }
+      .container #left:last-child {
+        margin-right: 0; }
+    .container #right {
+      float: left;
+      display: block;
+      margin-right: 2.1276595745%;
+      width: 48.9361702128%;
+      margin-right: 0; }
+      .container #right:last-child {
+        margin-right: 0; }
+
+  .p2 {
+    clear: both; }
+ }
+
+h3 {
+  font-family: 'Fauna One', serif; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left; }
+
+ul {
+  padding: 0; }
+  ul li {
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif; }
